@@ -517,12 +517,7 @@ a:disabled:hover {
   width: 100%;
   table-layout: fixed;
 }
-    
-.obtainer img {
-  max-width: 100%;
-  height: auto;
-}
-    
+       
 .about_myself {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
