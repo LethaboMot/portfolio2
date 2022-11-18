@@ -49,7 +49,16 @@ header.head {
   justify-content: space-between;
   align-items: center;
 }
-    
+
+.toolbar > a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+  padding: 0 24px;
+}
+       
 header.head a {
   text-decoration: none;
   color: #6070ff;
@@ -82,6 +91,15 @@ main {
   row-gap: 60px;
   background-color: #fff;
 }
+
+.toolbar h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  color: #253652;
+  padding: 0 14px;
+  margin: 0;
+}
     
 #toppart h1 {
   font-style: normal;
@@ -100,24 +118,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 12px;
-}
-
-.toolbar>a {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7F8cff;
-  text-decoration: none;
-  padding: 0 24px;
-}
-    
-.toolbar h1 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 50px;
-  color: #253652;
-  padding: 0 14px;
-  margin: 0;
 }
         
 .btn {
@@ -188,7 +188,7 @@ main {
   display: flex;
   gap: 5px;
   list-style: none;
-  padding: 0 24x;
+  padding: 0 24px;
 }
    
 .link a {
@@ -323,7 +323,7 @@ main {
   cursor: pointer;
   font-size: 18px;
   margin-top: 20px;
-  color: #ffffff;
+  color: #fff;
   padding: 10px 20px;
   background: #4053fc;
   border-radius: 8px;
@@ -366,7 +366,7 @@ a:disabled:hover {
     
 #container {
   display: flex;
-  color: #ffffff;
+  color: #fff;
   padding: 20px;
   margin-top: 20px;
   background-size: contain;
@@ -637,6 +637,6 @@ img {
   }
   .details {
     width: 500px;
-    justify-self: center
+    justify-self: center;
   }
-  }
+}
