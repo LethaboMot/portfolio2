@@ -9,25 +9,25 @@ a:hover {
   background: #6070ff;
   color: #fff;
 }
-    
+...    
 a:focus {
   background: #2230d2;
   color: #fff;
 }
-    
+...    
 a:disabled {
   background: #fff;
   color: #5e6c84;
 }
-    
+...    
 html {
   font-family: Poppins, sans-serif;
 }
-    
+...    
 .blue {
   color: #6070ff;
 }
-    
+...    
 .head {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -37,7 +37,7 @@ html {
   align-items: center;
   justify-content: space-between;
 }
-    
+...    
 header.head {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -49,7 +49,7 @@ header.head {
   justify-content: space-between;
   align-items: center;
 }
-
+...
 .toolbar > a {
   font-style: normal;
   font-weight: 500;
@@ -58,46 +58,46 @@ header.head {
   text-decoration: none;
   padding: 0 24px;
 }
-
+...
 .link a {
   width: 15px;
   margin-top: 10px;
   margin-right: 10px;
 }
-       
+...       
 header.head a {
   text-decoration: none;
   color: #6070ff;
 }
-    
+...    
 main {
   margin: 0 auto;
   height: 40px;
   padding: 0 27px;
 }
-    
+...    
 .bruw {
   font-size: 17px;
   font-weight: 700;
   line-height: 20px;
 }
-    
+...    
 .menu {
   padding: 3px 5px;
 }
-    
+...    
 .navigation_option {
   display: none;
   list-style: none;
   column-gap: 20px;
 }
-    
+...    
 #toppart {
   display: grid;
   row-gap: 60px;
   background-color: #fff;
 }
-
+...
 .toolbar h1 {
   font-style: normal;
   font-weight: 700;
@@ -106,7 +106,7 @@ main {
   padding: 0 14px;
   margin: 0;
 }
-    
+...    
 #toppart h1 {
   font-style: normal;
   font-weight: 800;
@@ -114,7 +114,7 @@ main {
   color: #253652;
   padding: 0 24px;
 }
-   
+...   
 .toolbar {
   width: 100%;
   height: calc(100vh - 48px);
@@ -125,7 +125,7 @@ main {
   flex-direction: column;
   gap: 12px;
 }
-        
+...        
 .btn {
   font-weight: 500;
   font-size: 17px;
@@ -136,22 +136,22 @@ main {
   background-color: #fff;
   cursor: pointer;
 }
-    
+...    
 .btn:active {
   background-color: rgb(31, 31, 241);
 }
-    
+...    
 .btn:disabled {
   color: #556175;
   border: 1px solid #c1c7d0;
 }
-    
+...    
 .btn:hover {
   color: white;
   background-color: #636fd4;
   box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
-    
+...    
 .start {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -163,7 +163,7 @@ main {
   line-height: 52px;
   position: relative;
 }
-    
+...    
 .mid {
   margin: 15px 0;
   color: #344563;
@@ -174,14 +174,14 @@ main {
   line-height: 24px;
   font-size: 16px;
 }
-    
+...    
 .middle {
   padding: 20px;
   background: white;
   margin-right: 10px;
   display: column;
 }
-   
+ ...  
 .blu {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -189,22 +189,22 @@ main {
   font-weight: normal;
   color: #6070ff;
 }
-    
+ ....   
 .socials {
   display: flex;
   gap: 5px;
   list-style: none;
   padding: 0 24px;
 }
-       
+...       
 .link a:hover {
   color: #172b4d;
 }
-    
+...    
 .astaricks {
   max-width: 100%;
 }
-  
+...  
 .contruct {
   margin: 25px 0;
   display: grid;
@@ -213,7 +213,7 @@ main {
   background: #e5e5e5;
   justify-items: center;
 }
-   
+...   
 .topic {
   background: #fff;
   border-radius: 8px;
@@ -222,7 +222,7 @@ main {
   padding: 20px 15px;
   display: grid;
 }
-    
+...    
 .topic2 {
   background: #fff;
   border-radius: 10px;
@@ -231,7 +231,7 @@ main {
   padding: 20px 15px;
   display: grid;
 }
-    
+...    
 .topic3 {
   background: #fff;
   border-radius: 10px;
@@ -240,7 +240,7 @@ main {
   padding: 20px 15px;
   display: grid;
 }
-    
+...    
 .topic4 {
   background: #fff;
   border-radius: 10px;
@@ -249,23 +249,23 @@ main {
   padding: 20px 15px;
   display: grid;
 }
-    
+...    
 .summary {
   grid-column: 1/-1;
   justify-self: center;
   align-self: center;
 }
-    
+...    
 .summary img {
   max-width: 100%;
 }
-    
+...    
 .instruction {
   grid-column: 1/-1;
   align-self: center;
   padding: 10px;
 }
-    
+...    
 .employed {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -275,7 +275,7 @@ main {
   font-weight: 700;
   line-height: 80px;
 }
-    
+...    
 .mission {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -283,20 +283,20 @@ main {
   overflow: hidden;
   color: #7a869a;
 }
-    
+...    
 .body {
   margin: 10px 0;
   padding: 10px 0;
   color: #344563;
   font-family: Poppins, sans-serif;
 }
-    
+...    
 .code_use {
   display: flex;
   flex-wrap: wrap;
   margin: 10px 0;
 }
-   
+...   
 .code_use > li {
   padding: 8px;
   list-style: none;
@@ -307,7 +307,7 @@ main {
   font-size: 14px;
   line-height: 16px;
 }
-    
+...    
 .tapbutton {
   cursor: pointer;
   font-size: 18px;
@@ -318,7 +318,7 @@ main {
   border-radius: 10px;
   border: 1px solid #396df2;
 }
-    
+...    
 .tapbutton1 {
   cursor: pointer;
   font-size: 18px;
@@ -329,18 +329,18 @@ main {
   border-radius: 8px;
   border: 1px solid #396df2;
 }
-    
+...    
 a:disabled:hover {
   background: #fff;
   color: #5e6c84;
 }
-    
+...    
 .information {
   display: grid;
   row-gap: 5px;
   padding: 14px;
 }
-    
+...    
 .boldtext {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -351,19 +351,19 @@ a:disabled:hover {
   display: flex;
   justify-content: space-between;
 }
-    
+...    
 .arrowkey {
   width: 10px;
   height: 10px;
   overflow: hidden;
 }
-    
+... 
 .duck {
   width: 10px;
   height: 14px;
   overflow: hidden;
 }
-    
+...    
 #container {
   display: flex;
   color: #fff;
@@ -377,7 +377,7 @@ a:disabled:hover {
   background-color: #6070ff;
   border: 24px;
 }
-    
+...
 .obtainer {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -391,14 +391,14 @@ a:disabled:hover {
   margin: 10px;
   border-radius: 8px;
 }
-    
+... 
 .obtainer img {
   width: 40px;
   margin-right: 20px;
   height: auto;
   max-width: 100%;
 }
-    
+... 
 .form-heading {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -408,7 +408,7 @@ a:disabled:hover {
   line-height: 52px;
   margin-top: 103px;
 }
-    
+... 
 .form-par {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -420,7 +420,7 @@ a:disabled:hover {
   background: #6070ff;
   border-radius: 10px;
 }
-    
+... 
 .name {
   color: #fff;
   padding: 20px;
@@ -435,7 +435,7 @@ a:disabled:hover {
   width: 50%;
   margin-left: 25%;
 }
-    
+... 
 .dubbed {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -445,7 +445,7 @@ a:disabled:hover {
   line-height: 52px;
   margin-top: 103px;
 }
-    
+... 
 #clickin {
   border: none;
   display: flex;
@@ -460,11 +460,11 @@ a:disabled:hover {
   line-height: 20px;
   border-radius: 10px;
 }
-    
+...
 .clickin:focus {
   border: 1px solid #172b4d;
 }
-    
+... 
 #textbox {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
@@ -477,7 +477,7 @@ a:disabled:hover {
   padding: 10px;
   margin: 10px 0;
 }
-    
+ ...
 .button_sent {
   border-radius: 8px;
   margin: 10px 0;
@@ -488,36 +488,36 @@ a:disabled:hover {
   line-height: 24px;
   padding: 12px 16px;
 }
-    
+...
 .button_sent:hover {
   color: #fff;
   background: #6070ff;
 }
-    
+... 
 .details {
   padding: 8px;
   margin: 0 auto;
 }
-    
+... 
 .centerbutton {
   justify-content: center;
   align-items: center;
   display: flex;
   height: 80px;
 }
-    
+... 
 #wrapper {
   max-width: 1050px;
   margin: 60px auto 60px auto;
   background-color: #fff;
 }
-    
+... 
 #inner {
   display: table;
   width: 100%;
   table-layout: fixed;
 }
-       
+...    
 .about_myself {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -529,7 +529,7 @@ a:disabled:hover {
   line-height: 52px;
   position: relative;
 }
-    
+... 
 @media screen and (min-width: 768px) {
   .beginning {
     padding: 0 50px;
