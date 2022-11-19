@@ -454,7 +454,7 @@ a:disabled:hover {
   color: 172b4d;
   line-height: 52px;
   position: relative;
-  
+}  
   
 @media screen and (min-width: 768px) {
   .header {
