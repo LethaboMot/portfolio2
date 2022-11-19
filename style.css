@@ -75,7 +75,7 @@ main {
   background-color: #fff;
 }
 
-#toppart {
+.toppart {
   display: grid;
   row-gap: 60px;
 }
@@ -92,7 +92,7 @@ main {
   line-height: 24px;
 }  
 
-#toppart h1 {
+.toppart h1 {
   display: grid;
   row-gap: 25px;
   background-color: #fff;
@@ -378,7 +378,7 @@ a:disabled:hover {
   
 }
 
-#clickin {
+.clickin {
   border: none;
   display: flex;
   flex-direction: column;
@@ -397,7 +397,7 @@ a:disabled:hover {
   border: 1px solid #172b4d;
 }
 
-#textbox {
+.textbox {
   color: #172b4d;
   font-family: 'Poppins', sans-serif;
   font-size: normal;
