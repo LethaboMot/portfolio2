@@ -247,7 +247,7 @@ main {
   border: 1px solid #396df2;
 }
 
-.tapbutton {
+.tapbutton1 {
   cursor: pointer;
   font-size: 18px;
   margin-top: 20px;
@@ -353,7 +353,7 @@ a:disabled:hover {
   color: #fff;
   margin-top: 20px;
   padding: 120px;
-  background-top-left-radius: 70px;
+  border-top-left-radius: 70px;
   background-repeat: no-repeat;
   background-position: bottom -1px right -13px;
   background-image: url("images/contact\ form\ background\ shapes@2x.svg");
@@ -370,8 +370,7 @@ a:disabled:hover {
   font-size: 40px;
   font-weight: 700;
   line-height: 52;
-  margin-top: 103px;
-  
+  margin-top: 103px; 
 }
 
 .clickin {
