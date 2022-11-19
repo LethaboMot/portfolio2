@@ -39,9 +39,15 @@
   color: #344563;
   font-weight: 400;
   background: #fff;
-  line-height: 24px;;
+  line-height: 24px;
 }  
-  
+
+.link a {
+  width: 15px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 .header.head a {
   text-decoration: none;
   color: #6070ff;
@@ -122,12 +128,6 @@ main {
   gap: 5px;
   list-style: none;
   padding: 0 24px;
-}
-
-.link a {
-  width: 15px;
-  margin-top: 10px;
-  margin-right: 10px;
 }
 
 .link a:hover {
@@ -382,7 +382,7 @@ a:disabled:hover {
   border: none;
   display: flex;
   flex-direction: column;
-  align-item: center;
+  align-items: center;
   justify-content: center;
   width: 109%;
   margin: 20px 0;
