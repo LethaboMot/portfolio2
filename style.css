@@ -75,7 +75,7 @@ main {
   background-color: #fff;
 }
 
-.#toppart {
+#toppart {
   display: grid;
   row-gap: 60px;
 }
