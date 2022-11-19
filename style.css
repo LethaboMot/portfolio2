@@ -30,6 +30,18 @@
   line-height: 20px;
 }
 
+.toolbar > a {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #344563;
+  font-weight: 400;
+  background: #fff;
+  line-height: 24px;;
+}  
+  
 .header.head a {
   text-decoration: none;
   color: #6070ff;
@@ -62,6 +74,18 @@ main {
   row-gap: 60px;
 }
 
+.toolbar h1 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: #344563;
+  font-weight: 400;
+  background: #fff;
+  line-height: 24px;
+}  
+
 #toppart h1 {
   display: grid;
   row-gap: 25px;
@@ -77,29 +101,7 @@ main {
   background-repeat: no-repeat;
   background-image: url("images/background.svg");
 }
-
-.toolbar h1 {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-size: 40px;
-  font-weight: 700;
-  color: #172b4d;
-  margin: 0;
-}
-
-.toolbar > a {
-  font-family: 'Poppins', snas-serif;
-  font-style: normal;
-  font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  color: #344563;
-  font-weight: 400;
-  background: #fff;
-  font-style: normal;
-  line-height: 24px;  
-}
-
+ 
 .middle {
   padding: 20px;
   background: #fff;
@@ -373,6 +375,7 @@ a:disabled:hover {
   font-weight: 700;
   line-height: 52;
   margin-top: 103px;
+  
 }
 
 #clickin {
@@ -390,7 +393,7 @@ a:disabled:hover {
   border-radius: 10px;
 }
 
-.clickin:focus {
+#clickin:focus {
   border: 1px solid #172b4d;
 }
 
@@ -439,7 +442,7 @@ a:disabled:hover {
   max-width: 1050px;
   margin: 60px auto 60px auto;
   background-color: #fff;
-  }
+}
 
 #inner {
   display: table;
@@ -453,9 +456,10 @@ a:disabled:hover {
   margin-top: 60px;
   margin-bottom: 20px;
   font-weight: 700;
-  color: 172b4d;
+  color: #172b4d;
   line-height: 52px;
   position: relative;
+
 }  
   
 @media screen and (min-width: 768px) {
