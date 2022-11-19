@@ -309,7 +309,7 @@ a:disabled:hover {
 .obtainer {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  padding 10px;
+  padding: 10px;
   color: #253858;
   display: flex;
   align-items: center;
