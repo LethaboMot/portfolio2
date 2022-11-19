@@ -296,7 +296,7 @@ a:disabled:hover {
   overflow: hidden;
 }
 
-#container {
+.container {
   display: flex;
   color: #fff;
   padding: 20px;
@@ -393,7 +393,7 @@ a:disabled:hover {
   border-radius: 10px;
 }
 
-#clickin:focus {
+.clickin:focus {
   border: 1px solid #172b4d;
 }
 
@@ -438,13 +438,13 @@ a:disabled:hover {
   height: 80px;
 }
 
-#wrapper {
+.wrapper {
   max-width: 1050px;
   margin: 60px auto 60px auto;
   background-color: #fff;
 }
 
-#inner {
+.inner {
   display: table;
   width: 100%;
   table-layout: fixed;
@@ -459,9 +459,7 @@ a:disabled:hover {
   color: #172b4d;
   line-height: 52px;
   position: relative;
-
-} 
-  
+}  
 @media screen and (min-width: 768px) {
   .header {
     padding: 0 50px;
