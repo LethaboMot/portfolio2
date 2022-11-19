@@ -422,7 +422,6 @@ a:disabled:hover {
 .btn_submit:hover {
   color: #fff;
   background: #6070ff;
-
 }
 
 @media screen and (min-width: 768px) {
@@ -513,6 +512,3 @@ a:disabled:hover {
     justify-self: center;
   }
 }
-
-
-
