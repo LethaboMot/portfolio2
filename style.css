@@ -58,7 +58,7 @@ main {
 }
 
 .#toppart {
-  display: grid
+  display: grid;
   row-gap: 60px;
 }
 
